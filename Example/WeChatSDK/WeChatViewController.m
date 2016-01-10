@@ -7,6 +7,7 @@
 //
 
 #import "WeChatViewController.h"
+#import "WXApi.h"
 
 @interface WeChatViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *version = [WXApi getApiVersion];
+    NSLog(@"version = %@", version);
 }
 
 - (void)didReceiveMemoryWarning
