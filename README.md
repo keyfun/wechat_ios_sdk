@@ -17,13 +17,9 @@ WeChatSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "WeChatSDK"
+pod "WeChatSDK", :git => "https://github.com/keyfun/wechat_ios_sdk.git"
 ```
 
 ## Author
 
 kana_app, forever_loss_@hotmail.com
-
-## License
-
-WeChatSDK is available under the MIT license. See the LICENSE file for more info.
