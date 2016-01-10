@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/keyfun/wechat_ios_sdk"
   s.license          = 'MIT'
-  s.author           = { "kana_app" => "forever_loss_@hotmail.com" }
+  s.author           = { "keyfun" => "keyfun.hk@gmail.com" }
   s.source           = { :git => "https://github.com/keyfun/wechat_ios_sdk.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.h'
   s.vendored_libraries = 'Sources/**/*.a'
   s.frameworks = 'SystemConfiguration', 'UIKit', 'CoreTelephony', 'Foundation'
-  s.libraries = 'sqlite3', 'z', 'c++'
+  #s.libraries = 'sqlite3', 'z', 'c++'
+  s.libraries = 'stdc++', 'sqlite3', 'iconv', 'c++', 'sqlite3.0', 'z'
 end
