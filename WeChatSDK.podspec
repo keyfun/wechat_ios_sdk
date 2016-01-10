@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.h'
   s.vendored_libraries = 'Sources/**/*.a'
-  s.frameworks = 'SystemConfiguration', 'UIKit', 'CoreTelephony', 'Foundation'
+  s.frameworks = 'SystemConfiguration', 'UIKit', 'CoreTelephony', 'Foundation', 'CoreGraphics', 'QuartzCore'
   #s.libraries = 'sqlite3', 'z', 'c++'
   s.libraries = 'stdc++', 'sqlite3', 'iconv', 'c++', 'sqlite3.0', 'z'
 end
