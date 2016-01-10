@@ -22,4 +22,4 @@ pod "WeChatSDK", :git => "https://github.com/keyfun/wechat_ios_sdk.git"
 
 ## Author
 
-kana_app, forever_loss_@hotmail.com
+keyfun.hk@gmail.com
