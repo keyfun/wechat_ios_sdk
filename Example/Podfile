@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WeChatSDK_Example', :exclusive => true do
+  pod "WeChatSDK", :path => "../"
+end
+
+target 'WeChatSDK_Tests', :exclusive => true do
+  pod "WeChatSDK", :path => "../"
+
+  
+end
